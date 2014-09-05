@@ -128,9 +128,10 @@ article footer{
 }
 .innerWorkshop{
     background:blue;
-    height:100%;
-    width:100%;
-    padding:0px;
+    height:270px;
+    width:260;
+    margin:5 auto;
+    padding:10px;
     -webkit-border-radius: 5px;
 
 }
