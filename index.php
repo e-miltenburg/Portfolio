@@ -13,7 +13,7 @@
                 <section id="main_section">
                     <article>
                         
-                        <p>test vanaf de pc</p>
+                        <p>test vanaf de laptop</p>
                     </article>
 
                 </section>
