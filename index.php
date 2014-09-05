@@ -2,10 +2,8 @@
 
 <html lang = "en">
     <head>
-        <title>Selina hairstyling</title>
-        <meta name="description" content="">
-        <meta name="keywords" content="Selina, hairstyling, weesp">
-        
+        <title>Portfolio</title>
+
         <?php include 'php/standardMeta.php' ?>
     </head>
     <body>
