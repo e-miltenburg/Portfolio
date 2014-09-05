@@ -13,7 +13,7 @@
                 <section id="main_section">
                     <article>
                         
-                        <p>test vanaf de laptop</p>
+                        <p>Gewoon test van de pc, niet veranderen aub!!!!</p>
                     </article>
 
                 </section>
