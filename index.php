@@ -1,24 +1,26 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+
+<html lang = "en">
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/main.css">
-        <title>Portfolio alpha</title>
+        <title>Selina hairstyling</title>
+        <meta name="description" content="">
+        <meta name="keywords" content="Selina, hairstyling, weesp">
+        
+        <?php include 'php/standardMeta.php' ?>
     </head>
     <body>
-                <div id="big_wrapper">
-            <!--<header id="top_header"></*?php include 'Head.php' */?></header>-->
-                    <header id="top_header" ><img src="Images/general/headerBG.jpg"</header>
-                    
-                    
-                    
-                    <p>hello world nummer 2</p>
-                    
-                    
-                    
-                </div>
-        <article>
-                    <div class="projects"><p>project 1</p></div>
+        <div id="big_wrapper">
+            <header id="top_header"><?php include 'php/Head.php' ?></header>
+             <div id="new_div">  
+                <section id="main_section">
+                    <article>
+                        
+
                     </article>
+
+                </section>
+            </div>
+            <footer id="the_footer"><?php include 'php/Footer.php' ?></footer>
+        </div>
     </body>
 </html>

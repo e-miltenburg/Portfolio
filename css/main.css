@@ -1,41 +1,163 @@
-root { 
-    display: block;
-}
-
 *{
     margin:0px;
     padding:0px;
 }
+/*standard text formatting*/
 h1{
     font: bold 20px Tahoma;
 }
 h2{
     font: bold 14px Tahoma;
 }
+#indexText{
+    
+    font:normal 20px Tahoma;
+/*    font-size:20px;*/
+}
 header, section, footer, aside, nav, article, hgroup{
     display:block;
-}
-#top_header{
-    background: black;
-    margin: 10px;
-    padding:5px 5px 0px 5px;
-    display: -webkit-box;
-    -webkit-border-radius:5px;
-}
-.projects{
-    -webkit-border-radius: 3px;
-    background: green;
-    width:350;
-    height:400;
-    display:-webkit-box
-}
-#big_wrapper{
-    /*width:100%;*/
-    
 }
 body{
     width:100%;
     display: -webkit-box;
     -webkit-box-pack: center;
-    background:#ffc383;
+    background: white;
+}
+
+#big_wrapper{
+    max-width: 1000px;
+    margin: 20px 0px;
+    display:-webkit-box;
+    -webkit-box-orient:vertical;
+    border: 0px solid black;
+    -webkit-box-flex: 1; /*1 = flexibel en 0 = gefixeerd*/
+    padding: 20px;
+}
+#top_header{
+    /*background:#cdc8e4;*/
+    background:white;
+    border: 0px solid black;
+    padding: 1px;
+    margin:40px;
+    text-align: center;
+    -webkit-border-radius:15px;
+    -webkit-box-shadow: rgba(255,255,255, .9) 0px 0px 15px;
+
+}
+#side_menu{
+    width: 200px;
+    height: 522px;/*dit moet eigenlijk nog variabel worden*/
+    background: #f88cc9;
+    -webkit-border-radius:5px;        
+    /*float: left; this has to be done for firefox */    
+}
+.menu_link{
+    min-height: 0px;
+    background: white;
+    width:100%;
+    padding: 5px;
+    -webkit-border-radius:15px;
+    
+}
+#main_menu{
+    color:white;
+    text-align:center;
+    height: 75px;
+}
+#main_menu li{
+    list-style:none;
+    padding:20px;
+    font:bold 22px Tahoma;
+}
+#new_div{
+    display:-webkit-box;
+    -webkit-box-orient:horizontal;
+}
+#main_section{
+    /*border:1px solid blue;*/
+    -webkit-box-flex: 1;
+}
+#side_news{
+    /*border:1px solid red;*/
+    width:220px;
+    /*height: 400px;*/
+    padding:20px;
+    margin:20px 0px;
+    background: #cdc8e4;
+    -webkit-box-orient:vertical;
+}
+.sidebar{
+    /*border: 1px solid blue;*/
+    width: 180px;
+    height: 200px;
+}
+#the_footer{
+    text-align:center;
+    padding:20px;
+    /*border-top: 2px solid green;*/
+}
+article{
+    padding: 10px;
+    margin:5px;
+}
+.foto{
+/*    background:#dc0055;*/
+        background: #f88cc9;
+    /*width: 300px;*/
+    padding: 5px 5px 0px 5px;
+    margin:0px 5px 5px 5px;
+    -webkit-border-radius:3px;
+    float:left;   
+}
+.image{
+    max-width: 100%;
+    max-height: 100%;
+}
+.fotolint{
+    margin 10px;
+        background: #f88cc9;
+    padding: 5px 5px 0px 5px;
+    margin:0px 5px 5px 5px;
+    -webkit-border-radius:3px;
+    float:left;   
+}
+
+article footer{
+    text-align: right;
+    font-style: italic;
+}
+.referrals{
+    background:#66ffcc;
+    margin:20px;
+    -webkit-border-radius:3px;
+    -webkit-box-shadow: rgba(102,255,204, .7) 10px 10px 15px;
+}
+.sidebarBox{
+    background: aqua;
+    width:100%;
+    height:20px;
+    margin:20px;
+    padding:20px;    
+    -webkit-border-radius:3px;
+    text-align: center;
+}
+.sidebarBox a{
+    font:bold 16px Tahoma;
+    
+}
+#tarieven{
+    margin: 30px;
+    padding: 5px;
+    background:#CCFFFF;
+    -webkit-border-radius: 3px;
+}
+#tarieven td{
+    padding: 2px;
+}
+.workshop{
+    background: #CCFFFF;
+    height:440px;
+}
+.workshopText{
+
 }
