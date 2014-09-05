@@ -10,9 +10,9 @@ h2{
     font: bold 14px Tahoma;
 }
 #indexText{
-    
+
     font:normal 20px Tahoma;
-/*    font-size:20px;*/
+    /*    font-size:20px;*/
 }
 header, section, footer, aside, nav, article, hgroup{
     display:block;
@@ -43,38 +43,16 @@ body{
     -webkit-border-radius:15px;
     -webkit-box-shadow: rgba(255,255,255, .9) 0px 0px 15px;
     */
-    
+
     background:black;
+    width:860px;;
     margin:10px;
-    padding:10px;
+    padding:5px 5px 0px 5px;
     display:-webkit-box;
     -webkit-border-radius: 5px;
-
 }
-#side_menu{
-    width: 200px;
-    height: 522px;/*dit moet eigenlijk nog variabel worden*/
-    background: #f88cc9;
-    -webkit-border-radius:5px;        
-    /*float: left; this has to be done for firefox */    
-}
-.menu_link{
-    min-height: 0px;
-    background: white;
+#header{/*settings for header picture*/
     width:100%;
-    padding: 5px;
-    -webkit-border-radius:15px;
-    
-}
-#main_menu{
-    color:white;
-    text-align:center;
-    height: 75px;
-}
-#main_menu li{
-    list-style:none;
-    padding:20px;
-    font:bold 22px Tahoma;
 }
 #new_div{
     display:-webkit-box;
@@ -83,20 +61,6 @@ body{
 #main_section{
     /*border:1px solid blue;*/
     -webkit-box-flex: 1;
-}
-#side_news{
-    /*border:1px solid red;*/
-    width:220px;
-    /*height: 400px;*/
-    padding:20px;
-    margin:20px 0px;
-    background: #cdc8e4;
-    -webkit-box-orient:vertical;
-}
-.sidebar{
-    /*border: 1px solid blue;*/
-    width: 180px;
-    height: 200px;
 }
 #the_footer{
     text-align:center;
@@ -107,22 +71,13 @@ article{
     padding: 10px;
     margin:5px;
 }
-.foto{
-/*    background:#dc0055;*/
-        background: #f88cc9;
-    /*width: 300px;*/
-    padding: 5px 5px 0px 5px;
-    margin:0px 5px 5px 5px;
-    -webkit-border-radius:3px;
-    float:left;   
-}
 .image{
     max-width: 100%;
     max-height: 100%;
 }
 .fotolint{
     margin 10px;
-        background: #f88cc9;
+    background: #f88cc9;
     padding: 5px 5px 0px 5px;
     margin:0px 5px 5px 5px;
     -webkit-border-radius:3px;
@@ -150,7 +105,7 @@ article footer{
 }
 .sidebarBox a{
     font:bold 16px Tahoma;
-    
+
 }
 #tarieven{
     margin: 30px;
@@ -162,8 +117,28 @@ article footer{
     padding: 2px;
 }
 .workshop{
-    background: #CCFFFF;
-    height:440px;
+    background: black;
+    height:290px;
+    width:290px;
+    margin:1px;
+    float:left;
+    padding:5px;
+    -webkit-border-radius: 5px;
+
+}
+.innerWorkshop{
+    background:blue;
+    height:100%;
+    width:100%;
+    padding:0px;
+    -webkit-border-radius: 5px;
+
+}
+.aboutCollapsed{
+    
+}
+.aboutExpanded{
+    
 }
 .workshopText{
 

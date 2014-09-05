@@ -13,7 +13,11 @@
                 <section id="main_section">
                     <article>
                         
-                        <p>Gewoon test van de pc, niet veranderen aub!!!!</p>
+                       
+                        
+                        <div class="workshop"><div class="innerWorkshop"><h2>Github:</h2></div></div>
+                        <div class="workshop"><div class="innerWorkshop"></div></div>
+                        <div class="workshop"><div class="innerWorkshop"></div></div>
                     </article>
 
                 </section>
