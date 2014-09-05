@@ -1,0 +1,41 @@
+root { 
+    display: block;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+}
+h1{
+    font: bold 20px Tahoma;
+}
+h2{
+    font: bold 14px Tahoma;
+}
+header, section, footer, aside, nav, article, hgroup{
+    display:block;
+}
+#top_header{
+    background: black;
+    margin: 10px;
+    padding:5px 5px 0px 5px;
+    display: -webkit-box;
+    -webkit-border-radius:5px;
+}
+.projects{
+    -webkit-border-radius: 3px;
+    background: green;
+    width:350;
+    height:400;
+    display:-webkit-box
+}
+#big_wrapper{
+    /*width:100%;*/
+    
+}
+body{
+    width:100%;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    background:#ffc383;
+}
