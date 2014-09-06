@@ -11,11 +11,11 @@
             <header id="top_header"><?php include 'php/Head.php' ?></header>
              <div id="new_div">  
                 <section id="main_section">
-                    <article>
+                    <article >
                         
-                       
+                        <div class="aboutCollapsed"><p>About me</p></div>
                         
-                        <div class="workshop"><div class="innerWorkshop"><h2>Github:</h2></div></div>
+                        <a href="https://github.com/e-miltenburg?tab=repositories"><div class="workshop"><div class="innerWorkshop"><h1>Github projects</h1><img class="image" src="Images/Menu/github logo.png"></div></div></a>
                         <div class="workshop"><div class="innerWorkshop"></div></div>
                         <div class="workshop"><div class="innerWorkshop"></div></div>
                     </article>
