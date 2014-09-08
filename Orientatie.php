@@ -1,8 +1,23 @@
-<?php
+<!doctype html>
 
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+<html lang = "en">
+    <head>
+        <title>Portfolio</title>
 
+        <?php include 'php/standardMeta.php' ?>
+    </head>
+    <body>
+        <div id="big_wrapper">
+            <header id="top_header"><?php include 'php/Head.php' ?></header>
+             <div id="new_div">  
+                <section id="main_section">
+                    <article >
+                        
+                        <p>dit is mijn orientatie. HAHHAHAHAHAHAHHAHAHAH</p>
+
+                </section>
+            </div>
+            <footer id="the_footer"><?php include 'php/Footer.php' ?></footer>
+        </div>
+    </body>
+</html>
