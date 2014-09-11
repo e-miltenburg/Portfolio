@@ -21,9 +21,12 @@ function ReplaceContentInContainer(id, content) {
             <div id="new_div">  
                 <section id="main_section">
                     <article >
-                        <?php include 'php/Test.php' ?>
+                        <?php 
+                        
+                        include 'php/Test.php'; 
+                        ?>
 
-                        <a href="javascript:ReplaceContentInContainer('about','<?php $i = getZooi() ?>')"><div id="about"><?php $i = getZooi() ?></div></a>
+                        <a href="javascript:ReplaceContentInContainer('about','<?php $i= getZooi() ?>')"><div id="about"><?php $i = getZooi($i) ?></div></a>
 
 
 

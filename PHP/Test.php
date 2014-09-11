@@ -6,14 +6,13 @@
             /* samengevat */
             $i = 1;
             echo'beknopt';
+            return $i;           
             
             
-        } else{
+        } if($i ==1){
             $i = 0;
             echo 'uitgebreid';
-            
+            return $i;
         }
     }
-
-
 ?>
