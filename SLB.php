@@ -13,7 +13,7 @@
                 <section id="main_section">
                     <article >
                         
-                        <p></p>
+                        <p>persoonlijk ontwikkelings plan <br> swot analyse</p>
                     </article>
                 </section>
             </div>

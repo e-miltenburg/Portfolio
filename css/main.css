@@ -34,25 +34,23 @@ body{
     padding: 20px;
 }
 #top_header{
-    /*background:#cdc8e4;*//*
-    background:white;
-    border: 0px solid black;
-    padding: 1px;
-    margin:40px;
-    text-align: center;
-    -webkit-border-radius:15px;
-    -webkit-box-shadow: rgba(255,255,255, .9) 0px 0px 15px;
-    */
-
     background:black;
-    width:860px;;
+    max-width:860px;
     margin:10px auto;
-    padding:5px 5px 0px 5px;
+    padding:5px;
     display:-webkit-box;
     -webkit-border-radius: 5px;
+    
 }
 #header{/*settings for header picture*/
-    width:100%;
+      display: inline-block;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+.trick {
+  display: inline-block;
+  vertical-align: middle;
 }
 #new_div{
     display:-webkit-box;
@@ -70,6 +68,7 @@ body{
 article{
     padding: 10px;
     margin:5px;
+    overflow:hidden;
 }
 .image{
     max-width: 100%;

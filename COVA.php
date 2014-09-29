@@ -11,9 +11,11 @@
             <header id="top_header"><?php include 'php/Head.php' ?></header>
              <div id="new_div">  
                 <section id="main_section">
-                    <article >
+                    <article>
                         
-                        <p></p>
+                        <h1>Bedrijfscommunicatie</h1>
+                        
+                        <p>presentatiescript</p>
                     </article>
                 </section>
             </div>
