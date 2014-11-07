@@ -3,7 +3,7 @@
 <html lang = "en">
     <head>
         <title>Portfolio</title>
-        <?php include 'php/standardMeta.php' ?>
+        <?php include 'PHP/standardMeta.php' ?>
 
         <script type="text/javascript"><!--
 function ReplaceContentInContainer(id, content) {
@@ -16,12 +16,12 @@ function ReplaceContentInContainer(id, content) {
     </head>
     <body>
         <div id="big_wrapper">
-            <header id="top_header"><?php include 'php/Head.php' ?></header>
+            <header id="top_header"><?php include 'PHP/Head.php' ?></header>
             <div id="new_div">  
                 <section id="main_section">
                     <article >
                         <?php
-                        include 'php/Test.php';
+                        include 'PHP/Test.php';
                         ?>
 
 
@@ -42,7 +42,7 @@ function ReplaceContentInContainer(id, content) {
 
                 </section>
             </div>
-            <footer id="the_footer"><?php include 'php/Footer.php' ?></footer>
+            <footer id="the_footer"><?php include 'PHP/Footer.php' ?></footer>
         </div>
     </body>
 </html>
