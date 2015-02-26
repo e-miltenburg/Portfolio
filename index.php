@@ -32,11 +32,20 @@ function ReplaceContentInContainer(id, content) {
 
                         <a href="CV.php"><div class="workshop"><div class="innerWorkshop"><h1>CV</h1><img class="image" src="Images/Menu/CV.png"></div></div></a>
 
-                        <a href="COVA.php"><div class="workshop"><div class="innerWorkshop"><h1>Bedrijfscommunicatie</h1><p>&nbsp &nbsp &nbsp presentatiescript</p></div></div></a>
-                        <a href="SLB.php"><div class="workshop"><div class="innerWorkshop"><h1>SLB</h1><p>&nbsp &nbsp &nbsp Persoonlijk ontwikkelings plan</p><p>&nbsp &nbsp &nbsp SWOT analyse</p></div></div></a>
+                        <a href="COVA.php"><div class="workshop"><div class="innerWorkshop"><h1>Bedrijfscommunicatie</h1><p>&nbsp &nbsp &nbsp presentatiescript<br>
+                                    &nbsp &nbsp &nbsp Argumenteren<br>
+                                    &nbsp &nbsp &nbsp Communicatie<br>
+                                    &nbsp &nbsp &nbsp Conflicthantering<br>
+                                    &nbsp &nbsp &nbsp Raamwerk (Nederlands)<br>
+                                    &nbsp &nbsp &nbsp Onderhandelen<br>
+                                    &nbsp &nbsp &nbsp Vergaderen<br></p></div></div></a>
+                        <a href="SLB.php"><div class="workshop"><div class="innerWorkshop"><h1>SLB</h1>
+                                    <p>&nbsp &nbsp &nbsp Blok 1<br>
+                                        &nbsp &nbsp &nbsp Blok 2<br>
+                                    &nbsp &nbsp &nbsp Blok 3<br></p></div></div></a>
                         <a href=""><div class="workshop"><div class="innerWorkshop"><h1>Social media</h1></div></div></a>
-                        <a href="orientatie.php"> <div class="workshop"><div class="innerWorkshop"><h1>Project "vouwfiets"</h1></div></div></a>
-                        <a target="blank" href="https://github.com/e-miltenburg?tab=repositories"><div class="workshop"><div class="innerWorkshop"><h1>Github projects</h1><img class="image" src="Images/Menu/github logo.png"></div></div></a>
+                        <a href="orientatie.php"> <div class="workshop"><div class="innerWorkshop"><h1>Projecten</h1></div></div></a>
+                        <a target="blank" href=""><div class="workshop"><div class="innerWorkshop"><h1></h1></div></div></a>
 
                     </article>
 

@@ -15,7 +15,14 @@
                         
                         <h1>Bedrijfscommunicatie</h1>
                         
-                        <a href="./Docs/presentatiescript_Erik.docx">presentatiescript</a>
+                        <a href="./docs/presentatiescript_Erik.docx">presentatiescript</a><br>
+                        
+                        <a href="./docs/Argumenteren.docx">Argumenteren</a><br>
+                        <a href="./docs/Communicatie.docx">Communicatie</a><br>
+                        <a href="./docs/Conflicthantering.docx">Conflicthantering</a><br>
+                        <a href="./docs/Oefenrapport.docx">Rapport (nederlands)</a><br>
+                        <a href="./docs/Onderhandelendocx">Onderhandelen</a><br>
+                        <a href="./docs/Vergaderen.docx">Vergaderen</a><br>
                     </article>
                 </section>
             </div>
