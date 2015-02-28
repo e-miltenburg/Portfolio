@@ -17,7 +17,7 @@ h2{
 #Over_mij{
     color:black;
     text-decoration: none;
-    
+
 }
 
 header, section, footer, aside, nav, article, hgroup{
@@ -27,7 +27,12 @@ body{
     width:100%;
     display: -webkit-box;
     -webkit-box-pack: center;
-    background: white;
+    background: #F0F8FF;
+    /* Voor 2 achtergrondplaatjes rechts en links
+    background-image: url("../Images/Icons/"),url("../Images/Icons/");
+   background-position: center left, center right;
+background-repeat: no-repeat;
+    */
 }
 
 #big_wrapper{
@@ -46,17 +51,13 @@ body{
     padding:5px;
     display:-webkit-box;
     -webkit-border-radius: 5px;
-    
+
 }
 #header{/*settings for header picture*/
-      display: inline-block;
-  vertical-align: middle;
-  max-height: 100%;
-  max-width: 100%;
-}
-.trick {
-  display: inline-block;
-  vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    max-height: 100%;
+    max-width: 100%;
 }
 #new_div{
     display:-webkit-box;
@@ -84,34 +85,6 @@ article footer{
     text-align: right;
     font-style: italic;
 }
-.referrals{
-    background:#66ffcc;
-    margin:20px;
-    -webkit-border-radius:3px;
-    -webkit-box-shadow: rgba(102,255,204, .7) 10px 10px 15px;
-}
-.sidebarBox{
-    background: aqua;
-    width:100%;
-    height:20px;
-    margin:20px;
-    padding:20px;    
-    -webkit-border-radius:3px;
-    text-align: center;
-}
-.sidebarBox a{
-    font:bold 16px Tahoma;
-
-}
-#tarieven{
-    margin: 30px;
-    padding: 5px;
-    background:#CCFFFF;
-    -webkit-border-radius: 3px;
-}
-#tarieven td{
-    padding: 2px;
-}
 .workshop{
     background: black;
     height:290px;
@@ -121,6 +94,21 @@ article footer{
     padding:5px;
     -webkit-border-radius: 5px;
 
+}
+.standardframe{
+    background: black;
+    min-height:290px;
+    width:90%;
+    margin:auto;
+    padding:5px;
+    -webkit-border-radius: 5px;
+}
+.innerFrame{
+     background:lightblue;
+    min-height:270px;
+    margin:  auto;
+    padding:10px;
+    -webkit-border-radius: 5px;
 }
 .innerWorkshop{
     background:lightblue;
@@ -144,11 +132,10 @@ article footer{
     font-size: 30px;
 }
 #about{
-    background:green;
-    padding:0px;
+    background:lightblue;
+    padding:10px;
+    padding-bottom:15px;
     border:2px solid black;
     -webkit-border-radius: 3px;
 }
-.about :hover{
-    background:yellow;
-}
+
