@@ -139,9 +139,6 @@ window.onload = function (evt) {
             <div id="new_div">  
                 <section id="main_section">
                     <article >
-                        <?php
-                        include 'PHP/Test.php';
-                        ?>
 
                         <div id="about"><h1 id="over_mij"><br></h1><img class="image" src="Images/Menu/CV.png" align="right"><p>Mijn naam is Erik Miltenburg. Ik zit momenteel op de Haagse hogeschool in Delft waar ik werktuigbouwkunde studeer.<br>Hiervoor heb ik informatica gestudeerd in Amsterdam. Maar tijdens die studie ben ik erachter gekomen dat werktuigbouwkunde mij veel meer boeit.<br>Als ik klaar ben met deze studie wil ik graag in de energiesector gaan werken.</p><br><h2>Mijn hobbies:</h2><p>In mijn vrije tijd rij ik graag motor. Ik heb al meerdere mooie vakanties met de motor achter de rug.<br>Hiernaast heb ik ook een passie voor oude machines, en dan vooral stoommachines. Ik probeer zo veel mogelijk stoomgemalen in nederland te bezoeken wanneer deze op stoom zijn. <br>Naast stoomgemalen bezoek ik ook graag andere industriële gebouwen, zoals moderne energiecentrales.<br>Ookal ben ik gestopt met informatica, ik vind het wel erg leuk om te programmeren, waar ik dus ook nog steeds veel tijd aan besteed.</p></div>
 

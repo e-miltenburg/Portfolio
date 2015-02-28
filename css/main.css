@@ -125,8 +125,7 @@ article footer{
 .innerWorkshop{
     background:lightblue;
     height:270px;
-    width:260;
-    margin:5 auto;
+    margin:  auto;
     padding:10px;
     -webkit-border-radius: 5px;
 
@@ -137,6 +136,12 @@ article footer{
 }
 .workshop :hover{
     background:lightskyblue;
+}
+.pdfDownload{
+    height:30px;
+    margin:5px;
+    padding:5px;
+    font-size: 30px;
 }
 #about{
     background:green;
