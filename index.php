@@ -21,8 +21,8 @@
                                 <br><br><br><br><br><br><br><br><br><br>                            </p></div>
 
                         <p>&nbsp<br><br></p>
-                        <a href="#"><div class="workshop"><div class="innerWorkshop"><h2>CV</h2>
-                                    <img class="image" src="Images/Icons/CV.png"></div></div></a>
+                        <a href="Projecten.php"><div class="workshop"><div class="innerWorkshop"><h2>Projecten</h2>
+                                    <img class="image" src="Images/Icons/gear.png"></div></div></a>
                         <a href="COVA.php"><div class="workshop"><div class="innerWorkshop"><h2>Bedrijfscommunicatie</h2>
                                     <img class="image"  src="Images/Icons/covaTile.png"></div></div></a>
                         <a href="SLB.php"><div class="workshop"><div class="innerWorkshop"><h2>Studieloopbaanbegeleiding</h2>
