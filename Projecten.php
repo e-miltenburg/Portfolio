@@ -35,6 +35,15 @@
                                     ?>
 
                                 </div>
+                                <div style="padding: 10px;"><h2>Serieproduct Slangenpomp</h2>
+                                    <p>In dit project kregen wij de opdracht om een slangenpomp te ontwerpen.<br>
+                                    Binnekort komt hier meer content.</p>
+                                    <?php
+                                    //displayLink('.pdf', '', 'Projecten/blok2/');
+                                    //displayLink('.pdf', '', 'Projecten/blok2/');
+                                    ?>
+
+                                </div>
 
                                 <h1>Blok 3</h1>
 
