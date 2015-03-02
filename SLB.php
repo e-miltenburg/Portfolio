@@ -16,9 +16,9 @@
                                 <h1>Studieloopbaanbegeleiding</h1><br>
                                 <h1>Blok 1</h1>
                                 <?php
-                                displayLink('PopMiltenburgB1.pdf', 'Persoonlijk ontwikkelingsplan', 'SLB/Blok1/');
-                                displayLink('SwotMiltenburgB1.pdf', 'SWOT analyse', 'SLB/Blok1/');
-                                displayLink('360MiltenburgB1.pdf', '360 graden feedback', 'SLB/Blok1/');
+                                displayLink('PopMiltenburgB1.pdf', 'Persoonlijk ontwikkelingsplan', 'SLB/blok1/');
+                                displayLink('SwotMiltenburgB1.pdf', 'SWOT analyse', 'SLB/blok1/');
+                                displayLink('360MiltenburgB1.pdf', '360 graden feedback', 'SLB/blok1/');
                                 ?>
                                 <h1>Blok 2</h1>
                                 <?php
