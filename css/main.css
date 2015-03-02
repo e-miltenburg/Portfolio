@@ -28,11 +28,11 @@ body{
     display: -webkit-box;
     -webkit-box-pack: center;
     background: #F0F8FF;
-    /* Voor 2 achtergrondplaatjes rechts en links
-    background-image: url("../Images/Icons/"),url("../Images/Icons/");
-   background-position: center left, center right;
-background-repeat: no-repeat;
-    */
+    background-image: url("../Images/Icons/leftBG.png"),url("../Images/Icons/rightBG.png");
+    background-position: center left, center right;
+    background-repeat: no-repeat;
+    background-size: 10%;
+
 }
 
 #big_wrapper{
@@ -104,7 +104,7 @@ article footer{
     -webkit-border-radius: 5px;
 }
 .innerFrame{
-     background:lightblue;
+    background:lightblue;
     min-height:270px;
     margin:  auto;
     padding:10px;
