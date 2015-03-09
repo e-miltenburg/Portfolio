@@ -29,7 +29,8 @@
                                 displayLink('Conflicthantering.pdf', 'Conflicthantering', 'COVA/blok2/');
                                 ?>
                                 <h2>Blok 3</h2>
-                                <?php displayLink('Argumenteren.pdf', 'Argumenteren', 'COVA/blok3/'); ?>
+                                <?php displayLink('Argumenteren.pdf', 'Argumenteren', 'COVA/blok3/');
+                                displayLink('verslagprojectmatigcreerenB3.pdf','samenvatting projectmatig creëren','COVA/blok3/');?>
                             </div></div>
                     </article>
                 </section>
