@@ -27,7 +27,11 @@
                                 displayLink('360MiltenburgB2.pdf', '360 graden feedback', 'SLB/blok2/');
                                 ?>
                                 <h1>Blok 3</h1>
-                                <?php displayLink('PapMiltenburgB3.pdf', 'Persoonlijk activiteiten plan', 'SLB/blok3/'); ?>
+                                <?php 
+                                displayLink('PapMiltenburgB3.pdf', 'Persoonlijk activiteiten plan', 'SLB/blok3/'); 
+                                displayLink('360MiltenburgB3.pdf', '360 graden feedback', 'SLB/blok3/');
+                                displayLink('PopMiltenburgB3.pdf','Persoonlijk ontwikkelingsplan','SLB/blok3/');
+                                ?>
                             </div></div>
                     </article>
                 </section>
